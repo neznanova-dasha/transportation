@@ -667,7 +667,38 @@ main {
   font-size: 1.125rem;
   line-height: 1.5;
 }
+.contacts-description__form{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+@supports (row-gap:20px) {
+    .contacts-description__form{
+        row-gap: 20px;
+    }
+}
 
+@supports not (row-gap:20px) {
+    .contacts-description__input{
+        margin-bottom: 20px;
+    }
+}
+.contacts-description__input{
+    border: 1px solid #f2f2f2;
+    background-color: transparent;
+    padding: 5px 15px;
+    color: #fff;
+}
+.contacts-description__button{
+    display: inline-block;
+    border: 0;
+    height: 30px;
+    padding: 0 15px;
+    color: #2F343A;
+    background-color: gold;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
 .vacancies-description__container {
   padding-top: 5.2173913043%;
   padding-bottom: 5.2173913043%;
