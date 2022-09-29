@@ -42,9 +42,6 @@ table {
   box-sizing: border-box;
   text-decoration: none;
 }
-input{
-	background: red;
-}
 html {
   min-height: 100%;
 }
