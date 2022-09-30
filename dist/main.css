@@ -694,7 +694,7 @@ main {
     height: 30px;
     padding: 0 15px;
     color: #2F343A;
-    background-color: gold;
+    background-color: #C8A35F;
     font-weight: 700;
     font-size: 1.125rem;
 }
@@ -720,6 +720,9 @@ main {
 .contacts-description__text {
   font-size: 1.125rem;
   line-height: 1.5;
+  font-weight: 300;
+  color: #f2f2f2;
+  margin-bottom: 1rem;
 }
 
 .footer {
