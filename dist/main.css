@@ -691,8 +691,7 @@ main {
 .contacts-description__button{
     display: inline-block;
     border: 0;
-    height: 30px;
-    padding: 5px 15px;
+    padding: 8px 15px;
     color: #fff;
     background-color: #C8A35F;
     font-weight: 400;
